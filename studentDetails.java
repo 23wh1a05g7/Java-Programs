@@ -1,6 +1,5 @@
-package yuvika;
 import java.util.Scanner;
-public class scannerClass {
+public class studentDetails {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
