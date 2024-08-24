@@ -1,4 +1,4 @@
-public class ThisKeyword {
+public class thisKeyword {
 	String name;
 	int age;
 	void display() {
