@@ -1,5 +1,3 @@
-package yuvika;
-
 public class cat {
 	String name;
 	int age;
