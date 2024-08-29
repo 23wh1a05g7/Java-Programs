@@ -1,5 +1,3 @@
-package yuvika;
-
 public class dog {
 	String name;
 	String colour;
