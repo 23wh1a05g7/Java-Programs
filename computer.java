@@ -1,5 +1,3 @@
-package yuvika;
-
 class outerClass{
 	class processor{
 		void displayDetails() {
