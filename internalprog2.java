@@ -1,14 +1,11 @@
-// Interface Shape
 interface Shape {
     void printArea();
 }
 
-// Class Rectangle implementing Shape
 class Rectangle implements Shape {
     private int length;
     private int width;
 
-    // Constructor to initialize length and width
     public Rectangle(int length, int width) {
         this.length = length;
         this.width = width;
@@ -21,12 +18,10 @@ class Rectangle implements Shape {
     }
 }
 
-// Class Triangle implementing Shape
 class Triangle implements Shape {
     private int base;
     private int height;
 
-    // Constructor to initialize base and height
     public Triangle(int base, int height) {
         this.base = base;
         this.height = height;
@@ -39,11 +34,9 @@ class Triangle implements Shape {
     }
 }
 
-// Class Circle implementing Shape
 class Circle implements Shape {
     private int radius;
 
-    // Constructor to initialize radius
     public Circle(int radius) {
         this.radius = radius;
     }
@@ -55,7 +48,6 @@ class Circle implements Shape {
     }
 }
 
-// Main class to test the implementation
 public class Main {
     public static void main(String[] args) {
         Shape rectangle = new Rectangle(5, 10);
